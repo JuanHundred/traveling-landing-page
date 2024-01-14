@@ -33,7 +33,7 @@ body {
 }
 
 /* header below*/
-.header{
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,11 +57,11 @@ body {
     margin-bottom: 30px;
 }
 
-.brown-title{
+.brown-title {
     color: #BE5A38;;
 }
 
-.navbar p{
+.navbar > p {
     color: white;
     font-size: 24px;
     font-weight: bolder;
@@ -75,13 +75,13 @@ body {
     list-style: none;
 }
 
-.navbar a{
+.navbar a {
     font-size: 18px;
     color: #C0C2C9;
 }
 
 /* header image and text content below */
-.header-left-side{
+.header-left-side {
    color: white;
    display: flex;
    flex-direction: column;
@@ -93,35 +93,35 @@ body {
    flex: 1;
 }
 
-.header-left-side h1{
+.header-left-side > h1 {
     font-size: 48px;
     font-weight: 900;
 }
 
-.header-left-side p {
+.header-left-side > p {
     font-size: 18px;
     font-weight: 100;
 }
 
-.header-right-side{
+.header-right-side {
     flex: 1;
 }
 
-.header-left-side button{
+.header-left-side > button {
     align-self: flex-start;
     color: white;
     background: #92140C;
     border-color: #92140C;
 }
 
-.header-right-side img{
+.header-right-side > img {
     width: 550px;
     height: 300px;
 }
 
 /* information layer below */
 
-.information-layer{
+.information-layer {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -130,20 +130,20 @@ body {
     padding-bottom: 30px;
 }
 
-.info-title{
+.info-title {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 40px 0;
 }
 
-.info-boxes{
+.info-cards-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.info-box {
+.info-card {
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -151,20 +151,20 @@ body {
     row-gap: 10px;
 }
 
-.info-box img{
+.info-card > img{
     width: 240px;
     height: 280px;
     border: #92140C solid 2px;
     border-radius: 10px;
 }
 
-.info-box p {
+.info-card > p {
     text-align: center;
     font-size: 18px;
 }
 
 /* quote layer below */
-.quote-layer{
+.quote-layer {
     display: flex;
     flex-direction: column;
     background-color: #C1B4AE;
@@ -183,20 +183,20 @@ body {
     text-align: center;
 }
 
-.quote-author{
+.quote-author {
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
-.quote-author p{
+.quote-author > p{
     padding-right: 50px;
     font-size: 26px;
     font-weight: bold;
 }
 
 /* book layer layer below */
-.book-layer{
+.book-layer {
     background-color: white;
     width: 100%;
     display: flex;
@@ -205,13 +205,13 @@ body {
     padding: 70px 0;
 }
 
-.book-layer-content{
+.book-layer-content {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.book-container{
+.book-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -222,11 +222,11 @@ body {
     border-radius: 10px;
 }
 
-.book-container-left p{
+.book-container-left > p{
     font-size: 18px;
 }
 
-.book-container-right button{
+.book-container-right > button {
     border-color:#F9FAF8; 
     background-color: #92140C;
     color: #F9FAF8;
@@ -235,7 +235,7 @@ body {
 
 
 /* footer below */
-.footer{
+.footer {
     background-color: rgba(53, 50, 56, 0.90);
     display: flex;
     flex-direction: row;
@@ -244,7 +244,7 @@ body {
     width: 100%;
 }
 
-.footer p{
+.footer > p {
     color: #F9FAF8;
     font-size: 18px;
 }
