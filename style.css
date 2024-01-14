@@ -195,6 +195,45 @@ body {
     font-weight: bold;
 }
 
+/* book layer layer below */
+.book-layer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.book-layer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #92140C;
+    width: 900px;
+    color: white;
+    padding: 50px 80px;
+    border-radius: 10px;
+}
+
+.book-container-left p{
+    font-size: 18px;
+}
+
+.book-container-right button{
+    border-color:#F9FAF8; 
+    background-color: #92140C;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+
 /* tags below */
 
 a{
