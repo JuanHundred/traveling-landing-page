@@ -202,7 +202,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .book-layer-content{
@@ -234,8 +234,22 @@ body {
 }
 
 
-/* tags below */
+/* footer below */
+.footer{
+    background-color: rgba(53, 50, 56, 0.90);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+}
 
+.footer p{
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+/* tags below */
 a{
     text-decoration: none;
 }
