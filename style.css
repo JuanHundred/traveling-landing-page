@@ -163,6 +163,38 @@ body {
     font-size: 18px;
 }
 
+/* quote layer below */
+.quote-layer{
+    display: flex;
+    flex-direction: column;
+    background-color: #C1B4AE;
+    width: 100%;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.quote-layer p{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.quote-author{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.quote-author p{
+    padding-right: 50px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
 /* tags below */
 
 a{
